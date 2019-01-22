@@ -16,10 +16,10 @@ courseTitle blank:false, nullable:false
 department blank:false, nullable:false
 courseLeader blank:false, nullable:false
 courseCode blank:false, nullable:false
-numberOfStudents blank:false, nullable:false, minsize:20, maxsize:60
+numberOfStudents blank:false, nullable:false, minSize:20, maxSize:60
 startDate blank:false, nullable:false
 endDate blank:false, nullable:false
-studyMode nullable:false, minsize:20;
+studyMode nullable:false, maxSize:20;
 description nullable:false, maxsize:5000, widget:'textarea'
 tuitionFees nullable:false, blank:false, scale:2
     }
